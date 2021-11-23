@@ -1,34 +1,113 @@
-.chess {
+// .chess {
+//    width: 100%;
+//    &__top {
+//       width: 100%;
+//       height: 110px;
+//       display: flex;
+//       justify-content: space-around;
+//       align-items: center;
+//    }
+//    &__main {
+//       width: 100%;
+//       height: calc(100vh- 110px);
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//    }
+// }
+
+// .row {
+//    display: flex;
+// }
+
+// .col {
+//    display: flex;
+//    width: 50px;
+//    height: 50px;
+//    margin: 4px;
+//    border: 1px solid black;
+// }
+
+// .active {
+//    background-color: black;
+// }
+
+// .colors {
+//    width: 100%;
+
+//    &_main {
+//       padding-top: 50px;
+//       width: 100%;
+//       display: flex;
+//       justify-content: space-around;
+//       margin-bottom: 50px;
+//    }
+
+//    &_blc1 {
+//    }
+
+//    &_blc2 {
+//    }
+// }
+// .container {
+// }
+// .blc {
+//    border: 1px solid black;
+//    width: 250px;
+//    height: 250px;
+// }
+// .bottom {
+//    display: flex;
+//    justify-content: center;
+// }
+// .btn {
+// }
+
+// .red {
+//    background-color: red;
+// }
+
+// .blue {
+//    background-color: blue;
+// }
+
+// .green {
+//    background-color: green;
+// }
+
+// .yellow {
+//    background-color: yellow;
+// }
+
+// .white {
+//    background-color: white;
+// }
+
+.random {
    width: 100%;
-   &__top {
-      width: 100%;
-      height: 110px;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-   }
    &__main {
+      padding-top: 50px;
       width: 100%;
-      height: calc(100vh- 110px);
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
+      margin-bottom: 50px;
+   }
+
+   &__text {
+      margin-bottom: 50px;
+      text-align: center;
+      width: 500px;
+      border: 15px solid black;
+      border-radius: 15%;
    }
 }
-
-.row {
-   display: flex;
+.container {
 }
-
-.col {
-   display: flex;
-   width: 50px;
-   height: 50px;
-   margin: 4px;
+.main {
+}
+.btn {
+   width: 120px;
    border: 1px solid black;
-}
-
-.active {
-   background-color: black;
 }
